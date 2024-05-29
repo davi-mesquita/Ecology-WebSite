@@ -14,8 +14,8 @@ contactForm.addEventListener('submit', (event) => {
   const formData = new FormData(contactForm);
 
   const templateParams = {
-    to_name: 'Davi Mesquita',
-    to_email: 'davimesquita9@gmail.com',
+    to_name: 'Anne Izabel Urbano',
+    to_email: 'anneizabel.urbano21@gmail.com',
     from_name: formData.get('nome'),
     from_email: formData.get('email'),
     message: formData.get('mensagem')
